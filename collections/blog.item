@@ -1,6 +1,6 @@
 <section class="blog-item">
 
-	{.section item}
+	{.section item} 
 		<article class="entry {@|item-classes} clear" id="article-{id}" data-item-id="{id}">
 
 			<p class="entry-categories">
@@ -47,7 +47,7 @@
     	{.if postItemInjectCode}<div class="entry-injection">{postItemInjectCode}</div>{.end}
 
 		{.comments?}{@|comments}{.end}
-	{.end}  
+	{.end}
 
 	{.if pagination}
 		<nav class="pagination clear">
@@ -56,7 +56,4 @@
 		</nav>
 	{.end}
 
-</section>    
-
-  
-  
+</section>
