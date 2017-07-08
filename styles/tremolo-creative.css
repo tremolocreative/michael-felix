@@ -1,0 +1,28 @@
+/*
+2017 Website Redesign
+tremolocreative.com
+*/
+
+
+/* Global */
+
+#canvas {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* Header */
+
+#siteHeader {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  margin: 0;
+}
+
+
+/* Main */
+
+
+/* Footer */
