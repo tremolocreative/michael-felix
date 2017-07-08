@@ -6,23 +6,61 @@ tremolocreative.com
 
 /* Global */
 
-#canvas {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 
 /* Header */
 
-#siteHeader {
+#header {
   position: absolute;
+  background: transparent;
+  overflow: visible;
+}
+
+#siteHeader {
+  position: fixed;
   top: 50px;
   left: 50px;
   margin: 0;
 }
 
+#siteHeader #logo {
+  padding: 0;
+}
+
+#siteHeader #logo.has-img {
+  width: 150px;
+  height: auto;
+}
+
+#siteHeader #logo.has-img>img {
+  width: 100%;
+  height: auto;
+}
+
+#header .navigation {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh
+}
+
+#under {
+  display: none;
+}
+
 
 /* Main */
+
+#main {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 0;
+}
+
+#main>.wrapper {
+  padding: 50px;
+}
 
 
 /* Footer */
